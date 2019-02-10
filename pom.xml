@@ -15,7 +15,6 @@
 	<name>scheduler</name>
 
 	<properties>
-		<java.version>1.8</java.version>
 		<quartz-scheduler.version>2.3.0</quartz-scheduler.version>
 		<postgresql.version>42.1.1</postgresql.version>
 	</properties>
