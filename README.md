@@ -44,7 +44,7 @@ This job will be fired every 2 seconds.
 
 Cron expression could be done using [Cron Expression Generator & Explainer - Quartz](https://www.freeformatter.com/cron-expression-generator-quartz.html).
 
-###Deleting a job:
+### Deleting a job:
 
 ```bash
 $ curl -X DELETE \
