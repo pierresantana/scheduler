@@ -1,0 +1,22 @@
+server:
+  port: 8080
+  compression:
+    enabled: true
+    mime-types: application/json,text/plain
+
+spring:
+  datasource:
+    driver: org.postgresql.Driver
+    url: jdbc:postgresql://localhost:5432/scheduler
+    username: scheduler
+    password: scheduler
+  jpa:
+    properties:
+      hibernate:
+        jdbc:
+          lob:
+            non_contextual_creation: true
+    hibernate:
+      ddl-auto: none
+  liquibase:
+    change-log: classpath:/db/db.changelog-master.xml
